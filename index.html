@@ -43,6 +43,14 @@
         <main id="top">
             <h1>
                 Welcome to Joshua DeConto's CSD120 Website!
+                <script>
+                    if (screen.width > 500) {
+                        document.write('<img src="images/josh300.jpg">') 
+                    }
+                    else {
+                        document.write('<img src="images/josh150.jpg">') 
+                    }
+                </script>
             </h1>
             <p>
                 Hi, I’m Joshua DeConto, and I have decided to join a college course that I feel would <br>
@@ -110,9 +118,14 @@
                     </span>
                 </Cite>
             </p>
-            <a href="https://www.trivium.org/">
-                <img src="images/logo.png" alt="Trivium Logo">
-            </a>
+            <figure>
+                <a href="https://www.trivium.org/">
+                    <img src="images/logo.png" alt="Trivium Logo">
+                </a>
+                <figcaption> 
+                    Trivium Logo
+                </figcaption>
+            </figure>
         </main>
         <footer>
             <hr>
