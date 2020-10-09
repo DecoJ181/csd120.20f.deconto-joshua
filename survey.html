@@ -54,8 +54,50 @@
                 Survey
             </h1>
             <form>
-                What is your name? <input type="text" name="name_field">
-                
+                <label for="name_field">What is your name?</label> <input type="text" name="name_field" id="name_field">
+                <label for="email_field">What is your email?</label> <input type="text" name="email_field" id="email_field">
+                <label for="best_whole_number">Which whole number is best?</label> <input type="number" name="best_whole_number" id="best_whole_number">
+                <label for="best_day">Which is the best day?</label> <input type="date" name="best_day" id="best_day">
+                <label for="best_bear">Which bear is best?</label> 
+                <select name="best_bear" id="best_bear">
+                    <option=""></option>
+                    <option="black"> Black </option>
+                    <option="brown"> Brown </option>
+                    <option="care"> Care </option>
+                    <option="panda"> Panda </option>
+                    <option="polar"> Polar </option>
+                    <option="teddy"> Teddy </option>
+                </select>
+                <fieldset>
+                    <legend>
+                        Do you like redio buttons?
+                    </legend>
+                    <ul>
+                        <li>
+                            <input type="radio" name="radio_button" id="yes" value="yes"> 
+                            <label for="yes"> 
+                                Yes
+                            </label>
+                        </li>
+                        <li>
+                            <input type="radio" name="radio_button" id="no" value="no"> 
+                            <label for="no"> 
+                                No
+                            </label>
+                        </li>
+                        <li>
+                            <input type="radio" name="radio_button" id="none" value="none"> 
+                            <label for="none"> 
+                                None of your business
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <label for="life_meaning"> What is the meaning of life? </label>
+                <textarea name="life_meaning" id="life_meaning" rows="5" cols="50"> 
+                    Enter the correct answer here 
+                </textarea>
+                <button type="submit" value="submit"> Submit </button>
             </form>
         </main>
         <footer>
