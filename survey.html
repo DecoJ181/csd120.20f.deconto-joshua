@@ -54,13 +54,22 @@
                 Survey
             </h1>
             <form action="https://formspree.io/f/xrgoedwg" method="post">
-                <label for="name_field">What is your name?</label> <input type="text" name="name_field" id="name_field">
-                <label for="email_field">What is your email?</label> <input type="text" name="email_field" id="email_field">
-                <label for="best_whole_number">Which whole number is best?</label> <input type="number" name="best_whole_number" id="best_whole_number">
+                <p>
+                <label for="name_field">What is your name? <abbr title="required" aria-label="required">*</abbr></label> <input type="text" name="name_field" id="name_field" required>
+                </p>
+                <p>
+                <label for="email_field">What is your email?<abbr title="required" aria-label="required">*</abbr></label> <input type="email" name="email_field" id="email_field" required>
+                </p>
+                <p>
+                <label for="best_whole_number">Which whole number is best?</label> <input type="number" name="best_whole_number" id="best_whole_number" min="1">
+                </p>
+                <p>
                 <label for="best_day">Which is the best day?</label> <input type="date" name="best_day" id="best_day">
-                <label for="best_bear">Which bear is best?</label> 
-                <select name="best_bear" id="best_bear">
-                    <option value=" ">&nbsp;</option>
+                </p>
+                <p>
+                <label for="best_bear">Which bear is best?<abbr title="required" aria-label="required">*</abbr></label> 
+                <select name="best_bear" id="best_bear" required>
+                    <option value="">&nbsp;</option>
                     <option value="black"> Black </option>
                     <option value="brown"> Brown </option>
                     <option value="care"> Care </option>
@@ -68,6 +77,7 @@
                     <option value="polar"> Polar </option>
                     <option value="teddy"> Teddy </option>
                 </select>
+                </p>
                 <fieldset>
                     <legend>
                         Do you like radio buttons?
@@ -86,18 +96,21 @@
                             </label>
                         </li>
                         <li>
-                            <input type="radio" name="radio_button" id="none" value="none" checked> 
+                            <input type="radio" name="radio_button" id="none" value="?" checked> 
                             <label for="none"> 
                                 None of your business
                             </label>
                         </li>
                     </ul>
                 </fieldset>
+                <p>
                 <label for="life_meaning"> What is the meaning of life? </label>
-                <textarea name="life_meaning" id="life_meaning" rows="5" cols="50"> 
-                    Enter the correct answer here 
+                <textarea name="life_meaning" id="life_meaning" rows="5" cols="50" placeholder="Enter the correct answer here"> 
                 </textarea>
+                </p>
+                <p>
                 <button type="submit" value="submit"> Submit </button>
+                </p>
             </form>
         </main>
         <footer>
