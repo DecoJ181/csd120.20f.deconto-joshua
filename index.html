@@ -43,12 +43,13 @@
         <main id="top">
             <h1>
                 Welcome to Joshua DeConto's CSD120 Website!<br>
-                <a href="images/josh.jpg" alt="Joshua DeConto picture">
-                    <img src="images/josh150.jpg"
-                        sizes="(max-width:500px) 150px, 300px"
-                        srcset="images/josh150.jpg 150w, images/josh300.jpg 300w">
-                </a>
             </h1>      
+            <a href="images/josh.jpg">
+                <img src="images/josh150.jpg"
+                    sizes="(max-width:500px) 150px, 300px"
+                    srcset="images/josh150.jpg 150w, images/josh300.jpg 300w"
+                    alt="Joshua DeConto picture">
+            </a>
             <p>
                 Hi, I’m Joshua DeConto, and I have decided to join a college course that I feel would <br>
                 be the most beneficial for me both in present and future. For the course that I am currently <br>
@@ -81,6 +82,15 @@
             <h2>
                 My Favourite Things!
             </h2>
+
+            <figure>
+                <a href="https://www.trivium.org/">
+                    <img src="images/logo.png" alt="Trivium Logo">
+                </a>
+                <figcaption> 
+                    Trivium Logo
+                </figcaption>
+            </figure>
             <h3>
                 Video Games
             </h3>
@@ -115,30 +125,19 @@
                     </span>
                 </Cite>
             </p>
-            <figure>
-                <a href="https://www.trivium.org/">
-                    <img src="images/logo.png" alt="Trivium Logo">
-                </a>
-                <figcaption> 
-                    Trivium Logo
-                </figcaption>
-            </figure>
             <h3>
                 Public Domain Audiobook
-                <video src="http://www.archive.org/download/collected_lovecraft_0810_librivox/nyarlathotep_lovecraft_dh_64kb.mp3" controls>
-                    <a href="http://www.archive.org/download/collected_lovecraft_0810_librivox/nyarlathotep_lovecraft_dh_64kb.mp3">
-                        Nyarlathotep
-                    </a>
-                </video>
             </h3>
+            <audio src="http://www.archive.org/download/collected_lovecraft_0810_librivox/nyarlathotep_lovecraft_dh_64kb.mp3" controls>
+                <a href="http://www.archive.org/download/collected_lovecraft_0810_librivox/nyarlathotep_lovecraft_dh_64kb.mp3">
+                    Nyarlathotep
+                </a>
+            </audio>
             <h3>
                 YouTube Video
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/08kMdn8L7Yw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    <a href="https://www.youtube.com/watch?v=08kMdn8L7Yw">
-                        If Insects had to Introduce Themselves
-                    </a>
-                </iframe>
             </h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/08kMdn8L7Yw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
         </main>
         <footer>
             <hr>
@@ -163,7 +162,7 @@
             <picture>
                 <source type="image/svg+xml" srcset="images/sc-logo.svg">
                 <source type="image/webp" srcset="images/sc-logo.webp">
-                <img src="images/sc-logo.png" width="70"
+                <img src="images/sc-logo.png" width="70" alt="Sault College logo"
                     srcset="images/sc-logo.png, images/sc-logo@1.5x.png 1.5x, images/sc-logo@2x.png 2x">
             </picture>
         </footer>
