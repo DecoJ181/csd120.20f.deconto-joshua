@@ -19,3 +19,6 @@ footer hr {
     margin-bottom: 2em;
     border-bottom: 3px dotted rgb(8, 60, 128);
 }
+li::after {
+    content: ":";
+}
