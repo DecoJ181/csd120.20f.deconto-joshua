@@ -65,13 +65,13 @@ header > ul {
 }
 header a {
     color: rgba(92, 17, 82, 1.0);
-    border-top: 40px solid;
+    border: 10px rgba(0, 0, 0, 0.5);
     padding-top: 1em;
     border-spacing: 0.5em;
 }
 header a:hover {
     color: rgba(92, 17, 82, 1.0);
-    border-top: 40px solid;
+    border: 10px rgba(0, 0, 0, 0.5);
     padding-top: 1em;
     border-spacing: 0.5em;
 }
