@@ -59,12 +59,16 @@ header nav ul {
 }
 header nav ul li {
     display: inline;
+    border-top: 4px solid;
 }
 header > ul {
     border-top: 4px rgba(0, 0, 0, 0.1);
 }
 header a {
-    color: rgb(92, 17, 82);
+    color: rgba(92, 17, 82, 0.0);
+}
+header a:hover {
+    color: rgba(92, 17, 82, 1.0);
 }
 body::selection {
     background-color: rgb(175, 26, 26);
