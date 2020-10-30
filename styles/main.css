@@ -50,8 +50,13 @@ header {
     border-left: -2em;
     border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
 }
+header nav {
+    outline-offset: 2em;
+}
 header > ul {
     border-top: 4px rgba(0, 0, 0, 0.1);
+    margin: 0px;
+    padding: 0px;
 }
 header a {
     color: rgb(92, 17, 82);
