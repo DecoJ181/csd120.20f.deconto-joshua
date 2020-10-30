@@ -12,6 +12,7 @@ div {
     overflow: auto;
     background-color: rgb(122, 212, 175);
 }
+
 footer hr {
     width: 50%;
     min-width: 300;
@@ -20,13 +21,16 @@ footer hr {
     margin-bottom: 2em;
     border-bottom: 3px dotted rgb(8, 60, 128);
 }
+
 li::after {
     content: ":";
 }
+
 body {
     color: rgb(10, 16, 128);
     background-color: rgb(109, 133, 123);
 }
+
 h1 {
     color: rgb(10, 16, 128);
 }
@@ -36,8 +40,18 @@ h2 {
 h3 {
     color: rgb(10, 16, 128);
 }
+
 a {
     color: rgb(212, 130, 82);
+}
+
+header {
+    border-right: -2em;
+    border-left: -2em;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+}
+header > ul {
+    border-top: 4px rgba(0, 0, 0, 0.1);
 }
 header a {
     color: rgb(92, 17, 82);
