@@ -53,10 +53,12 @@ header {
 header nav {
     outline-offset: 2em;
 }
-header > ul {
-    border-top: 4px rgba(0, 0, 0, 0.1);
+header nav ul {
     margin: 0px;
     padding: 0px;
+}
+header > ul {
+    border-top: 4px rgba(0, 0, 0, 0.1);
 }
 header a {
     color: rgb(92, 17, 82);
