@@ -15,8 +15,8 @@ div {
 
 footer hr {
     width: 50%;
-    min-width: 300;
-    max-width: 890;
+    min-width: 300px;
+    max-width: 890px;
     margin-top: 3em;
     margin-bottom: 2em;
     border-bottom: 3px dotted rgb(8, 60, 128);
@@ -46,8 +46,8 @@ a {
 }
 
 header {
-    border-right: -2em;
-    border-left: -2em;
+    border-right: 0em;
+    border-left: 0em;
     border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
 }
 header nav {
