@@ -22,3 +22,7 @@ footer hr {
 li::after {
     content: ":";
 }
+body {
+    color: rgb(6, 9, 63);
+    background-color: rgb(13, 231, 86);
+}
