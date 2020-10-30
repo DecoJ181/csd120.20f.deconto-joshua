@@ -66,9 +66,17 @@ header > ul {
 }
 header a {
     color: rgba(92, 17, 82, 0.0);
+    display: inline-block;
+    background-color: rgba(99, 7, 86, 0);
+    padding-top: 1em;
+    border-spacing: 0.5em
 }
 header a:hover {
     color: rgba(92, 17, 82, 1.0);
+    display: inline-block;
+    background-color: rgba(99, 7, 86, 1.0);
+    padding-top: 1em;  
+    border-spacing: 0.5em
 }
 body::selection {
     background-color: rgb(175, 26, 26);
