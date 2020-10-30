@@ -79,3 +79,20 @@ header a:hover {
 body::selection {
     background-color: rgb(175, 26, 26);
 }
+table th {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1.0em;
+    padding-right: 1.0em;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+table td {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1.0em;
+    padding-right: 1.0em;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.15);
+}
