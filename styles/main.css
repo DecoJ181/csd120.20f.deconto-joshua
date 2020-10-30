@@ -102,3 +102,10 @@ label {
 fieldset ul li label {
     display: inline;
 }
+button {
+    border: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
