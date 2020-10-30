@@ -43,5 +43,5 @@ header a {
     color: rgb(92, 17, 82);
 }
 body::selection {
-    color: rgb(175, 26, 26);
+    background-color: rgb(175, 26, 26);
 }
