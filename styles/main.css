@@ -27,3 +27,21 @@ body {
     color: rgb(10, 16, 128);
     background-color: rgb(109, 133, 123);
 }
+h1 {
+    color: rgb(10, 16, 128);
+}
+h2 {
+    color: rgb(10, 16, 128);
+}
+h3 {
+    color: rgb(10, 16, 128);
+}
+a {
+    color: rgb(212, 130, 82);
+}
+header a {
+    color: rgb(92, 17, 82);
+}
+body::selection {
+    color: rgb(175, 26, 26);
+}
