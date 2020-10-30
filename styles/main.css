@@ -59,8 +59,7 @@ header nav ul {
 }
 header nav ul li {
     display: inline;
-    border-top: 4px solid;
-    border-color: rgb(23, 28, 104);
+    border-top: 40px solid;
     padding-top: 1em;
     border-spacing: 0.5em;
 }
