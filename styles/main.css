@@ -7,6 +7,5 @@ div {
     border-right: 1px;
     border-left: 1px;
     border-bottom: 1px;
-    border-color: black;
-    opacity: 0.3;
+    border-color: rgba(0,0,0,0.5);
 }
