@@ -23,6 +23,6 @@ li::after {
     content: ":";
 }
 body {
-    color: rgb(6, 9, 63);
-    background-color: rgb(13, 231, 86);
+    color: rgb(10, 16, 128);
+    background-color: rgb(122, 212, 175);
 }
