@@ -57,6 +57,9 @@ header nav ul {
     margin: 0px;
     padding: 0px;
 }
+header nav ul li {
+    display: inline;
+}
 header > ul {
     border-top: 4px rgba(0, 0, 0, 0.1);
 }
