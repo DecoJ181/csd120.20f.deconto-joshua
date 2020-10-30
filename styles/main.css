@@ -96,6 +96,6 @@ table td {
 table tr:nth-child(even) {
     background-color: rgba(0, 0, 0, 0.15);
 }
-form label {
+label {
     display: inline-block;
 }
