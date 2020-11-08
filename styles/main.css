@@ -13,11 +13,6 @@ div {
     background-color: rgb(122, 212, 175);
 }
 
-div.bio {
-    float: left;
-    width: 33.33%;
-    column-gap: 2em;
-}
 
 footer hr {
     width: 50%;
