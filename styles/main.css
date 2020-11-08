@@ -31,6 +31,11 @@ div.biotable tr th {
     border-collapse: collapse;
 }
 
+img {
+    max-width: 100%;
+    box-shadow: 5px 10px darkblue;
+}
+
 footer hr {
     width: 50%;
     min-width: 300px;
