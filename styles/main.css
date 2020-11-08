@@ -14,8 +14,13 @@ div {
 }
 
 div.bio {
+    float: left;
     width: 33.33%;
     column-gap: 2em;
+}
+
+div.bio table{
+    column-span: all;
 }
 
 footer hr {
