@@ -27,6 +27,9 @@ div.biotable {
 div.biotable tr td {
     border-collapse: collapse;
 }
+div.biotable tr th {
+    border-collapse: collapse;
+}
 
 footer hr {
     width: 50%;
