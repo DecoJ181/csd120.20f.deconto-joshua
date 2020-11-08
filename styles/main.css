@@ -19,6 +19,9 @@ div.bio {
     column-gap: 2em;
 }
 
+div.divtable {
+    column-span: all;
+}
 
 footer hr {
     width: 50%;
