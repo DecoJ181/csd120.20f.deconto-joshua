@@ -49,6 +49,14 @@ footer hr {
     margin-bottom: 2em;
     border-bottom: 3px dotted rgb(8, 60, 128);
 }
+footer a.backtotop {
+    text-shadow: darkorange;
+    text-decoration: underline;
+}
+footer a.backtotop:hover {
+    text-decoration: none;
+}
+
 
 iframe {
     border-right: 2em;
@@ -96,13 +104,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-a.backtotop {
-    text-shadow: darkorange;
-}
-a.backtotop:hover {
-    text-decoration: none;
-}
-
 header {
     border-right: 0em;
     border-left: 0em;
