@@ -81,7 +81,12 @@ header nav ul {
 header nav ul li {
     display: inline;
     border: 10px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    list-style-type: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
+
 header > ul {
     border-top: 4px rgba(0, 0, 0, 0.1);
 }
@@ -97,6 +102,7 @@ header a:hover {
     padding-top: 1em;
     border-spacing: 0.5em;
 }
+
 body::selection {
     background-color: rgb(175, 26, 26);
 }
