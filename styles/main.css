@@ -18,6 +18,10 @@ div.bio {
     column-gap: 2em;
 }
 
+div.bio table {
+    column-span: all;
+}
+
 footer hr {
     width: 50%;
     min-width: 300px;
