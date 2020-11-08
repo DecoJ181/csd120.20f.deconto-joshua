@@ -21,6 +21,11 @@ div.bio {
 div.biotable {
     width: 100%;
     column-gap: 2em;
+    margin-top: 1em;
+}
+
+div.biotable tr td {
+    border-collapse: collapse;
 }
 
 footer hr {
