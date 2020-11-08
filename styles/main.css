@@ -19,7 +19,8 @@ div.bio {
 }
 
 div.biotable {
-    column-span: all;
+    width: 100%;
+    column-gap: 2em;
 }
 
 footer hr {
