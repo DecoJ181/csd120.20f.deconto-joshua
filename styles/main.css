@@ -36,6 +36,11 @@ img {
     box-shadow: 5px 10px darkblue;
 }
 
+footer {
+    font-size: 75%;
+    text-align: center;
+}
+
 footer hr {
     width: 50%;
     min-width: 300px;
@@ -90,6 +95,12 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+a.backtotop {
+    text-shadow: darkorange;
+}
+a.backtotop:hover {
+    text-decoration: none;
 }
 
 header {
