@@ -31,11 +31,11 @@ fieldset {
     padding: 0px;
 }
 
-li ul {
+ul li {
     list-style-type: none;
 }
 
-li ol {
+ol li {
     list-style-type: upper-roman;
 }
 
