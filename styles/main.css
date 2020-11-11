@@ -22,7 +22,7 @@ div {
 }
 
 footer hr {
-    width: 50vh;
+    width: 50vw;
     min-width: 300px;
     max-width: 890px;
     margin-top: 3em;
