@@ -1,5 +1,13 @@
-div {
+html {
     box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+div {
     max-width: 960px;
     margin: auto;
     margin-bottom: 3em;
@@ -14,15 +22,16 @@ div {
 }
 
 footer hr {
-    width: 50%;
+    width: 50vh;
     min-width: 300px;
     max-width: 890px;
     margin-top: 3em;
     margin-bottom: 2em;
+    border: none;
     border-bottom: 3px dotted rgb(8, 60, 128);
 }
 
-li::after {
+dt::after {
     content: ":";
 }
 
@@ -46,12 +55,14 @@ a {
 }
 
 header {
-    border-right: 0em;
-    border-left: 0em;
-    border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+    margin-left: -2em;
+    margin-right: -2em;
+    border-top: 4px solid rgba(0, 0, 0, 0.1);
 }
 header nav {
-    outline-offset: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
 }
 header nav ul {
     margin: 0px;
@@ -59,24 +70,22 @@ header nav ul {
 }
 header nav ul li {
     display: inline;
-    border: 10px rgba(0, 0, 0, 0.5);
-}
-header > ul {
-    border-top: 4px rgba(0, 0, 0, 0.1);
 }
 header a {
     color: rgba(92, 17, 82, 0.25);
-    border: 10px rgba(0, 0, 0, 0.5);
+    border-top: 4px solid rgba(0, 0, 0, 0);
+    margin-top: -4px;
+    margin-left: 16px;
+    margin-right: 16px;
     padding-top: 1em;
-    border-spacing: 0.5em;
+    padding-bottom: 0.5em;
+    display: inline-block;
 }
 header a:hover {
     color: rgb(59, 8, 52);
-    border: 10px rgba(0, 0, 0, 0.5);
-    padding-top: 1em;
-    border-spacing: 0.5em;
+    border-top: 4px solid rgba(0, 0, 0, 0.5);
 }
-body::selection {
+*::selection {
     background-color: rgb(175, 26, 26);
 }
 table th {
@@ -93,7 +102,7 @@ table td {
     padding-right: 1.0em;
     background-color: rgba(0, 0, 0, 0.05);
 }
-table tr:nth-child(even) {
+table tr:nth-child(even) td {
     background-color: rgba(0, 0, 0, 0.15);
 }
 label {
@@ -102,10 +111,11 @@ label {
 fieldset ul li label {
     display: inline;
 }
-button {
+[type="submit"] {
     border: none;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 3em;
     padding-right: 3em;
+    color: rgba(0,0,0,0.5)
 }
