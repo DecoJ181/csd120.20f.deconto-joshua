@@ -14,12 +14,7 @@ html{
     box-sizing: inherit;
 }
 
-<<<<<<< HEAD
-div {
-=======
 div.width-wrap {
-    
->>>>>>> 54dc1efab9ed2ff7682252fd37eb76165f080c1b
     max-width: 960px;
     margin: auto;
     margin-bottom: 3em;
@@ -201,14 +196,12 @@ table tr:nth-child(even) td {
 label {
     display: block;
 }
-<<<<<<< HEAD
 
-=======
 fieldset ul {
     padding: 0;
     list-style-type: none;
 }
->>>>>>> 54dc1efab9ed2ff7682252fd37eb76165f080c1b
+
 fieldset ul li label {
     display: inline;
 }
