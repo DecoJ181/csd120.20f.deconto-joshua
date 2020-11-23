@@ -113,59 +113,81 @@
             <h2>
                 My Favourite Things!
             </h2>
-            <figure>
-                <a href="https://www.trivium.org/">
-                    <img src="images/logo.png" alt="Trivium Logo">
-                </a>
-                <figcaption> 
-                    Trivium Logo
-                </figcaption>
-            </figure>
-            <h3>
-                Video Games
-            </h3>
-            <ol>
-                <li>
-                    Hollow Knight
-                </li>
-                <li>
-                    Ori and The Blind Forest
-                </li>
-                <li>
-                    DOOM 2
-                </li>
-                <li>
-                    Doom Eternal
-                </li>
-                <li>
-                    Nightmare Reaper
-                </li>
-            </ol>
-            <h3>
-                Haiku
-            </h3>
-            <p>
-                Like crunchy cornflakes <br>
-                Gold leaves rustle underfoot <br>
-                Beauty in decay <br>
-                <Cite>
-                    By
-                    <span class="author">
-                        Suh Joon Kim
-                    </span>
-                </Cite>
-            </p>
-
-            <h3>Public Domain Audiobook</h3>
-            <audio src="http://www.archive.org/download/collected_lovecraft_0810_librivox/nyarlathotep_lovecraft_dh_64kb.mp3" controls>
-                <a href="http://www.archive.org/download/collected_lovecraft_0810_librivox/nyarlathotep_lovecraft_dh_64kb.mp3">
-                    Nyarlathotep
-                </a>
-            </audio>
-        
-            <h3>YouTube Video</h3>
-            <iframe width="560" height="315" title="If Insects had to Introduce Themselves" src="https://www.youtube.com/embed/08kMdn8L7Yw" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
+            <div class="Favourites">
+                <input type="radio" id="band" name="headers" value="band">
+                    <label for="band">
+                        <h3>
+                            Band
+                        </h3>
+                    </label>
+                <figure>
+                    <a href="https://www.trivium.org/">
+                        <img src="images/logo.png" alt="Trivium Logo">
+                    </a>
+                    <figcaption> 
+                        Trivium Logo
+                    </figcaption>
+                </figure>
+                <input type="radio" id="games" name="headers" value="games">
+                    <label for="games">
+                        <h3>
+                            Video Games
+                        </h3>
+                    </label>
+                <ol>
+                    <li>
+                        Hollow Knight
+                    </li>
+                    <li>
+                        Ori and The Blind Forest
+                    </li>
+                    <li>
+                        DOOM 2
+                    </li>
+                    <li>
+                        Doom Eternal
+                    </li>
+                    <li>
+                        Nightmare Reaper
+                    </li>
+                </ol>
+                <input type="radio" id="haiku" name="headers" value="haiku">
+                    <label for="haiku">
+                        <h3>
+                            Haiku
+                        </h3>
+                    </label>
+                <p>
+                    Like crunchy cornflakes <br>
+                    Gold leaves rustle underfoot <br>
+                    Beauty in decay <br>
+                    <Cite>
+                        By
+                        <span class="author">
+                            Suh Joon Kim
+                        </span>
+                    </Cite>
+                </p>
+                <input type="radio" id="audiobook" name="headers" value="audiobook">
+                    <label for="audiobook">
+                        <h3>
+                            Public Domain Audiobook
+                        </h3>
+                    </label>
+                <audio src="http://www.archive.org/download/collected_lovecraft_0810_librivox/nyarlathotep_lovecraft_dh_64kb.mp3" controls>
+                    <a href="http://www.archive.org/download/collected_lovecraft_0810_librivox/nyarlathotep_lovecraft_dh_64kb.mp3">
+                        Nyarlathotep
+                    </a>
+                </audio>
+                <input type="radio" id="video" name="headers" value="video">
+                    <label for="video">
+                        <h3>
+                            Youtube Video
+                        </h3>
+                    </label>
+                <iframe width="560" height="315" title="If Insects had to Introduce Themselves" src="https://www.youtube.com/embed/08kMdn8L7Yw" style="border: none;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+            </div>
         </main>
         <footer>
             <hr>
@@ -193,7 +215,10 @@
                 <img src="images/sc-logo.png" width="70" alt="Sault College Logo"
                     srcset="images/sc-logo.png, images/sc-logo@1.5x.png 1.5x, images/sc-logo@2x.png 2x">
             </picture>
+            
+            
         </footer>
+    
     </div>
 </body>
 
