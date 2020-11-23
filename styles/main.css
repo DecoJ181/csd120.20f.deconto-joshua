@@ -142,10 +142,11 @@ header nav {
 header nav ul {
     margin: 0px;
     padding: 0px;
+    flex-wrap: nowrap;
 }
 
 header nav ul li {
-    display: inline;
+    align-items: center;
     font-weight: bold;
     list-style-type: none;
     text-transform: uppercase;
