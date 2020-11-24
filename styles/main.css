@@ -28,11 +28,11 @@ div.width-wrap {
     background-color: rgb(122, 212, 175);
 }
 
-div.Favourites div {
+.opt ~ .hideme { 
     display: none;
 }
 
-div.Favourites div:checked {
+.opt:checked ~ .hideme { 
     display: block;
 }
 
