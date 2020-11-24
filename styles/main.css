@@ -45,6 +45,12 @@ div.width-wrap {
     transform: scale(1.1);
 }
 
+.paperclip {
+    box-shadow: none;
+    background: none !important;
+    width: 20%;
+}
+
 .row-span-2 {
     grid-row: span 2;
 }
