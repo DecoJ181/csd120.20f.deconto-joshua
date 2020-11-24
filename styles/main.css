@@ -28,6 +28,11 @@ div.width-wrap {
     background-color: rgb(122, 212, 175);
 }
 
+.gallery {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
 .Favourites input[type="radio"] {
     display: none;
 }
