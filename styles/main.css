@@ -124,6 +124,10 @@ div.bio img {
     box-shadow: 5px 10px darkblue;
 }
 
+.bio a {
+    display: block;
+}
+
 img {
     max-width: 100%;
 }
