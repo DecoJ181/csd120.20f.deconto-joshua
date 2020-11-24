@@ -60,6 +60,7 @@ div.width-wrap {
 #games:checked ~ #games { 
     display: block;
     width: 100%;
+    border-bottom: darkblue;
 }
 #haiku:checked ~ #haiku { 
     display: block;
