@@ -46,7 +46,7 @@ div.width-wrap {
 }
 
 .paperclip {
-    box-shadow: none;
+    box-shadow: none !important;
     background: none !important;
     width: 20%;
 }
