@@ -32,7 +32,7 @@ div.width-wrap {
     display: none;
 }
 
-.Favourites div {
+.Favourites {
     flex-wrap: nowrap;
 }
 
