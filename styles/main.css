@@ -34,6 +34,7 @@ div.width-wrap {
 
 .Favourites {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .Favourites label {
@@ -46,18 +47,23 @@ div.width-wrap {
 
 #band:checked ~ #band { 
     display: block;
+    width: 100%;
 }
 #games:checked ~ #games { 
     display: block;
+    width: 100%;
 }
 #haiku:checked ~ #haiku { 
     display: block;
+    width: 100%;
 }
 #audiobook:checked ~ #audiobook { 
     display: block;
+    width: 100%;
 }
 #video:checked ~ #video { 
     display: block;
+    width: 100%;
 }
 
 div.bio {
