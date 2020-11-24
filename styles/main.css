@@ -36,6 +36,10 @@ div.width-wrap {
     display: flex;
 }
 
+.Favourites label {
+    order: -1;
+}
+
 .hideme {
     display: none;
 }
