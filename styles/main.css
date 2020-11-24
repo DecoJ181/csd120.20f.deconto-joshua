@@ -33,7 +33,7 @@ div.width-wrap {
 }
 
 .Favourites {
-    flex-wrap: nowrap;
+    display: flex;
 }
 
 .hideme {
