@@ -28,11 +28,23 @@ div.width-wrap {
     background-color: rgb(122, 212, 175);
 }
 
-.opt ~ .hideme { 
+.hideme { 
     display: none;
 }
 
-.opt:checked ~ .hideme { 
+#band:checked ~ #band { 
+    display: block;
+}
+#games:checked ~ #games { 
+    display: block;
+}
+#haiku:checked ~ #haiku { 
+    display: block;
+}
+#audiobook:checked ~ #audiobook { 
+    display: block;
+}
+#video:checked ~ #video { 
     display: block;
 }
 
