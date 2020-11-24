@@ -28,6 +28,14 @@ div.width-wrap {
     background-color: rgb(122, 212, 175);
 }
 
+div.Favourites div {
+    display: none;
+}
+
+div.Favourites div:checked {
+    display: block;
+}
+
 div.bio {
     column-count: 3;
     column-gap: 2em;
