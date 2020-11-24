@@ -50,6 +50,11 @@ div.width-wrap {
     order: -1;
 }
 
+.Favourites label:checked {
+    order: -1;
+    border-bottom: darkblue;
+}
+
 .hideme {
     display: none;
 }
