@@ -37,6 +37,10 @@ div.width-wrap {
     flex-wrap: wrap;
 }
 
+.Favourites > label {
+    margin: 20px;    
+}
+
 .Favourites label {
     order: -1;
 }
