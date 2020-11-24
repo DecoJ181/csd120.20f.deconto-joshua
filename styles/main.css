@@ -31,11 +31,9 @@ div.width-wrap {
 .gallery {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-}
-
-.gallery img {
     line-height: 0;
 }
+
 
 .Favourites input[type="radio"] {
     display: none;
