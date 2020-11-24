@@ -29,10 +29,16 @@ div.width-wrap {
 }
 
 .gallery {
-    display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     line-height: 0;
     column-gap: 10px;
+    display: grid;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .row-span-2 {
