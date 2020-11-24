@@ -32,8 +32,16 @@ div.width-wrap {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     line-height: 0;
+    column-gap: 10px;
 }
 
+.row-span-2 {
+    grid-row: span 2;
+}
+
+.col-span-2 {
+    grid-column: span 2;
+}
 
 .Favourites input[type="radio"] {
     display: none;
