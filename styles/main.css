@@ -41,17 +41,11 @@ div.width-wrap {
     margin: 20px;    
 }
 
-.Favourites > label:checked {
-    margin: 20px;
-    border-bottom: darkblue;
-}
-
 .Favourites label {
     order: -1;
 }
 
-.Favourites label:checked {
-    order: -1;
+.Favourites h3:checked {
     border-bottom: darkblue;
 }
 
