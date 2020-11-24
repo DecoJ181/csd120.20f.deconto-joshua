@@ -28,11 +28,11 @@ div.width-wrap {
     background-color: rgb(122, 212, 175);
 }
 
-.Favorites input[type="radio"] {
+.Favourites input[type="radio"] {
     display: none;
 }
 
-.Favorites div {
+.Favourites div {
     flex-wrap: nowrap;
 }
 
