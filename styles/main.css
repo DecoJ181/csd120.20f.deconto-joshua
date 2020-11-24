@@ -28,7 +28,15 @@ div.width-wrap {
     background-color: rgb(122, 212, 175);
 }
 
-.hideme { 
+.Favorites input[type="radio"] {
+    display: none;
+}
+
+.Favorites div {
+    flex-wrap: nowrap;
+}
+
+.hideme {
     display: none;
 }
 
