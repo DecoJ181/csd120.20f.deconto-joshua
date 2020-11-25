@@ -57,7 +57,7 @@ div.width-wrap {
     display: none;
 }
 
-input:checked + label {
+.things label h3 {
     color: deepskyblue;
 }
 
