@@ -57,10 +57,6 @@ div.width-wrap {
     display: none;
 }
 
-.things label h3 {
-    color: deepskyblue;
-}
-
 .Favourites {
     display: flex;
     flex-wrap: wrap;
