@@ -110,7 +110,7 @@ div.bio img.paperclip {
     position: absolute;
     top: -45px;
     left: 135px;
-    max-width: 20%;
+    transform: scale(0.2);
 }
 
 div.bio table {
@@ -137,7 +137,7 @@ img {
 img.paperclip {
     box-shadow: none !important;
     background: none !important;
-    max-width: 20%;
+    transform: scale(0.2);
 }
 
 footer {
