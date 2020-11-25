@@ -157,7 +157,7 @@ footer a.backtotop:hover {
     text-decoration: none;
 }
 
-div.sticky {
+.sticky {
     position: sticky;
     margin-left: -25px;
     bottom: 10px;
