@@ -155,6 +155,9 @@ footer a.backtotop {
 }
 footer a.backtotop:hover {
     text-decoration: none;
+}
+
+.backtotop:hover {
     transform: rotate(45deg);
 }
 
