@@ -53,6 +53,17 @@ div.width-wrap {
     grid-column: span 2;
 }
 
+.backtotop {
+    position: sticky;
+    margin-left: -25px;
+    bottom: 10px;
+    display: inline-block;
+}
+
+.backtotop:hover {
+    transform: rotate(45deg);
+}
+
 .Favourites input[type="radio"] {
     display: none;
 }
