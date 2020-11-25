@@ -57,6 +57,10 @@ div.width-wrap {
     display: none;
 }
 
+.Favourites input[type="radio"]:checked {
+    border-bottom: darkblue;
+}
+
 .Favourites {
     display: flex;
     flex-wrap: wrap;
@@ -68,10 +72,6 @@ div.width-wrap {
 
 .Favourites label {
     order: -1;
-}
-
-.Favourites h3:checked {
-    border-bottom: darkblue;
 }
 
 .hideme {
