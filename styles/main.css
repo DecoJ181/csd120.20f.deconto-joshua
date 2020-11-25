@@ -53,17 +53,6 @@ div.width-wrap {
     grid-column: span 2;
 }
 
-.backtotop {
-    position: sticky;
-    margin-left: -25px;
-    bottom: 10px;
-    display: inline-block;
-}
-
-.backtotop:hover {
-    transform: rotate(45deg);
-}
-
 .Favourites input[type="radio"] {
     display: none;
 }
@@ -162,10 +151,15 @@ footer hr {
     border-bottom: 3px dotted rgb(8, 60, 128);
 }
 footer a.backtotop {
+    position: sticky;
+    margin-left: -25px;
+    bottom: 10px;
+    display: inline-block;
     text-shadow: 1px 1px 2px darkorange;
 }
 footer a.backtotop:hover {
     text-decoration: none;
+    transform: rotate(45deg);
 }
 
 iframe {
