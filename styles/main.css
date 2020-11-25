@@ -155,15 +155,7 @@ footer a.backtotop {
 }
 footer a.backtotop:hover {
     text-decoration: none;
-}
-
-.sticky:hover {
     transform: rotate(45deg);
-}
-
-.sticky {
-    position: sticky;
-    top: 10px;
 }
 
 iframe {
