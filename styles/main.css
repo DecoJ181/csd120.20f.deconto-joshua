@@ -151,7 +151,7 @@ footer hr {
 }
 footer a.backtotop {
     position: sticky;
-    z-index: 1;
+    z-index: 2000;
     margin-left: -25px;
     bottom: 10px;
     display: inline-block;
@@ -159,7 +159,7 @@ footer a.backtotop {
 }
 footer a.backtotop:hover {
     position: sticky;
-    z-index: 1;
+    z-index: 2000;
     margin-left: -25px;
     bottom: 10px;
     display: inline-block;
