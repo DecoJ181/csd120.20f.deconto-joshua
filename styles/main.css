@@ -61,18 +61,6 @@ input:checked + label {
     color: deepskyblue;
 }
 
-input:checked label {
-    color: deepskyblue;
-}
-
-input:checked + label {
-    color: deepskyblue !important;
-}
-
-input:checked label {
-    color: deepskyblue !important;
-}
-
 .Favourites {
     display: flex;
     flex-wrap: wrap;
