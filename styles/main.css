@@ -138,6 +138,9 @@ img {
 img.paperclip {
     box-shadow: none !important;
     background: none !important;
+}
+
+#paperclip img {
     width: 20%;
 }
 
