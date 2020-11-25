@@ -124,7 +124,7 @@ div.bio img {
     padding: 2%;
     background-color: #fff;
     box-shadow: 5px 10px darkblue;
-    
+    width: 20%;
 }
 
 .bio a {
@@ -138,9 +138,6 @@ img {
 img.paperclip {
     box-shadow: none !important;
     background: none !important;
-}
-
-#bio img {
     width: 20%;
 }
 
