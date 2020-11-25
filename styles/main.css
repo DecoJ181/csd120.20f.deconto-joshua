@@ -24,7 +24,6 @@ div.width-wrap {
     border-right: 1px solid rgba(0, 0, 0, 0.5);
     border-left: 1px solid rgba(0, 0, 0, 0.5);
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    overflow: auto;
     background-color: rgb(122, 212, 175);
 }
 
