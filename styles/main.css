@@ -113,12 +113,6 @@ div.bio img.paperclip {
     width: 20%;
 }
 
-img.paperclip {
-    box-shadow: none !important;
-    background: none !important;
-    width: 20%;
-}
-
 div.bio table {
     column-span: all;
     margin-top: 1em;
@@ -139,6 +133,12 @@ div.bio img {
 
 img {
     max-width: 100%;
+}
+
+img.paperclip {
+    box-shadow: none !important;
+    background: none !important;
+    width: 20%;
 }
 
 footer {
