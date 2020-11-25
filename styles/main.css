@@ -57,8 +57,20 @@ div.width-wrap {
     display: none;
 }
 
-.Favourites input:checked + label {
+input:checked + label {
     color: deepskyblue;
+}
+
+input:checked label {
+    color: deepskyblue;
+}
+
+input:checked + label {
+    color: deepskyblue !important;
+}
+
+input:checked label {
+    color: deepskyblue !important;
 }
 
 .Favourites {
