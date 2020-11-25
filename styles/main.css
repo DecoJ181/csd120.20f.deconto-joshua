@@ -49,9 +49,6 @@ div.width-wrap {
     box-shadow: none !important;
     background: none !important;
     width: 20%;
-    position: absolute;
-    top: 0;
-    right: 0;
 }
 
 .row-span-2 {
@@ -125,6 +122,9 @@ div.bio img {
     padding: 2%;
     background-color: #fff;
     box-shadow: 5px 10px darkblue;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .bio a {
