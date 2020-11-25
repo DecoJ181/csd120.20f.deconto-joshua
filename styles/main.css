@@ -151,13 +151,14 @@ footer hr {
     border-bottom: 3px dotted rgb(8, 60, 128);
 }
 footer a.backtotop {
+    position: sticky;
+    margin-left: -25px;
+    bottom: 10px;
+    display: inline-block;
     text-shadow: 1px 1px 2px darkorange;
 }
 footer a.backtotop:hover {
     text-decoration: none;
-}
-
-.backtotop:hover {
     transform: rotate(45deg);
 }
 
