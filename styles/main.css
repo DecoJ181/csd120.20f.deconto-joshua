@@ -109,6 +109,13 @@ div.width-wrap {
 div.bio {
     column-count: 3;
     column-gap: 2em;
+    position: relative;
+}
+
+div.bio img.paperclip {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 div.bio table {
@@ -122,9 +129,7 @@ div.bio img {
     padding: 2%;
     background-color: #fff;
     box-shadow: 5px 10px darkblue;
-    position: absolute;
-    top: 0;
-    right: 0;
+    
 }
 
 .bio a {
