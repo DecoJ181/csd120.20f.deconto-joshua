@@ -57,11 +57,7 @@ div.width-wrap {
     display: none;
 }
 
-.Favourites input[type="radio"] + label {
-    color: deepskyblue;
-}
-
-.Favourites label + input[type="radio"] {
+.Favourites input:checked + label {
     color: deepskyblue;
 }
 
