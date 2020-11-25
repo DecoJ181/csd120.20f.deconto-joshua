@@ -58,7 +58,7 @@ div.width-wrap {
 }
 
 .Favourites input[type="radio"] label {
-    border-bottom: darkblue !important;
+    color: deepskyblue;
 }
 
 .Favourites {
