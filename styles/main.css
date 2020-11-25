@@ -57,7 +57,7 @@ div.width-wrap {
     display: none;
 }
 
-.Favourites input[type="radio"]:checked + label {
+.Favourites label + input[type="radio"]:checked {
     border-bottom: darkblue;
 }
 
