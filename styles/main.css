@@ -45,12 +45,6 @@ div.width-wrap {
     transform: scale(1.1);
 }
 
-.paperclip {
-    box-shadow: none !important;
-    background: none !important;
-    width: 20%;
-}
-
 .row-span-2 {
     grid-row: span 2;
 }
@@ -114,8 +108,14 @@ div.bio {
 
 div.bio img.paperclip {
     position: absolute;
-    top: -65px;
-    left: 150px;
+    top: -75px;
+    left: 140px;
+    width: 20%;
+}
+
+.paperclip {
+    box-shadow: none !important;
+    background: none !important;
     width: 20%;
 }
 
