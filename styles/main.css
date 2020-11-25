@@ -108,7 +108,7 @@ div.bio {
 
 div.bio img.paperclip {
     position: absolute;
-    top: -50px;
+    top: -60px;
     left: 18%;
     transform: scale(0.5);
 }
