@@ -114,8 +114,9 @@ div.bio {
 
 div.bio img.paperclip {
     position: absolute;
-    top: -75px;
-    left: 100px;
+    top: -65px;
+    left: 150px;
+    width: 20%;
 }
 
 div.bio table {
