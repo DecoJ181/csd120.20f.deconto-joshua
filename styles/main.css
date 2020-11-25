@@ -155,10 +155,9 @@ footer a.backtotop {
 }
 footer a.backtotop:hover {
     text-decoration: none;
-    transform: rotate(45deg);
 }
 
-.backtotop {
+div.sticky {
     position: sticky;
     margin-left: -25px;
     bottom: 10px;
