@@ -208,10 +208,6 @@ h2 {
     color: rgb(10, 16, 128);
 }
 
-h3 {
-    color: rgb(10, 16, 128);
-}
-
 .width-wrap input[type="radio"]:checked + label {
     color: red;
 }
