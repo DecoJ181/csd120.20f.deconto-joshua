@@ -76,7 +76,7 @@ div.width-wrap {
 #band:checked ~ #band { 
     display: block;
     width: 100%;
-    color: aqua
+    color: aqua;
 }
 #games:checked ~ #games { 
     display: block;
