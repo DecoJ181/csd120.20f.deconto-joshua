@@ -208,7 +208,7 @@ h2 {
     color: rgb(10, 16, 128);
 }
 
-.width-wrap input[type="radio"]:checked + label {
+.Favourites input[type="radio"]:checked + label {
     color: red;
 }
 
