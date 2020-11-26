@@ -210,6 +210,8 @@ h2 {
 
 .Favourites input[type="radio"]:checked + label {
     text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-style: wavy;
 }
 
 a {
