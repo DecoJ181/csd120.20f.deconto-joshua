@@ -209,7 +209,7 @@ h2 {
 }
 
 .Favourites input[type="radio"]:checked + label {
-    border-bottom: rgb(10, 16, 128);
+    text-decoration: underline;
 }
 
 a {
