@@ -76,11 +76,11 @@ div.width-wrap {
 #band:checked ~ #band { 
     display: block;
     width: 100%;
+    color: aqua
 }
 #games:checked ~ #games { 
     display: block;
     width: 100%;
-    border-bottom: darkblue;
 }
 #haiku:checked ~ #haiku { 
     display: block;
