@@ -77,9 +77,6 @@ div.width-wrap {
     display: block;
     width: 100%;
 }
-#band:checked ~ #band + label { 
-    color:red;
-}
 #games:checked ~ #games { 
     display: block;
     width: 100%;
@@ -95,6 +92,10 @@ div.width-wrap {
 #video:checked ~ #video { 
     display: block;
     width: 100%;
+}
+
+.Favourites input[type="radio"]:checked + label {
+    color: red;
 }
 
 div.bio {
