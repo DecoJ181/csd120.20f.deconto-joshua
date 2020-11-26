@@ -94,7 +94,7 @@ div.width-wrap {
     width: 100%;
 }
 
-input[type="radio"]:checked + label {
+.width-wrap input[type="radio"]:checked + label {
     color: red;
 }
 
