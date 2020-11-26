@@ -149,12 +149,6 @@ footer hr {
     border: none;
     border-bottom: 3px dotted rgb(8, 60, 128);
 }
-footer a.backtotop {
-    text-shadow: 1px 1px 2px darkorange;
-}
-footer a.backtotop:hover {
-    text-decoration: none;
-}
 
 a.backtotop {
     position: sticky;
