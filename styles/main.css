@@ -150,16 +150,21 @@ footer hr {
     border-bottom: 3px dotted rgb(8, 60, 128);
 }
 footer a.backtotop {
+    text-shadow: 1px 1px 2px darkorange;
+}
+footer a.backtotop:hover {
+    text-decoration: none;
+}
+
+a.backtotop {
     position: sticky;
-    z-index: 2000;
     margin-left: -25px;
     bottom: 10px;
     display: inline-block;
     text-shadow: 1px 1px 2px darkorange;
 }
-footer a.backtotop:hover {
+a.backtotop:hover {
     position: sticky;
-    z-index: 2000;
     margin-left: -25px;
     bottom: 10px;
     display: inline-block;
