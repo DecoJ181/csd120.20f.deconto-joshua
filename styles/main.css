@@ -94,7 +94,7 @@ div.width-wrap {
     width: 100%;
 }
 
-.Favourites input[type="radio"]:checked + label {
+input[type="radio"]:checked + label {
     color: red;
 }
 
