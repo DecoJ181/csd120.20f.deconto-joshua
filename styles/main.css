@@ -94,10 +94,6 @@ div.width-wrap {
     width: 100%;
 }
 
-.width-wrap input[type="radio"]:checked + label {
-    color: red;
-}
-
 div.bio {
     column-count: 3;
     column-gap: 2em;
@@ -214,6 +210,10 @@ h2 {
 
 h3 {
     color: rgb(10, 16, 128);
+}
+
+.width-wrap input[type="radio"]:checked + label {
+    color: red;
 }
 
 a {
