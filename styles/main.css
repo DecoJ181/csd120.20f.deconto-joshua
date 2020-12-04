@@ -28,13 +28,13 @@ div.width-wrap {
 }
 
 .gallery {
-    grid-template-columns: 25% 25% 25% 25%;
-    line-height: 0;
-    column-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
     display: grid;
 }
 
 .gallery img {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -52,20 +52,20 @@ div.width-wrap {
     grid-column: span 2;
 }
 
-.Favourites input[type="radio"] {
+.favourites input[type="radio"] {
     display: none;
 }
 
-.Favourites {
+.favourites {
     display: flex;
     flex-wrap: wrap;
 }
 
-.Favourites > label {
+.favourites > label {
     margin: 20px;    
 }
 
-.Favourites label {
+.favourites label {
     order: -1;
 }
 
@@ -73,23 +73,7 @@ div.width-wrap {
     display: none;
 }
 
-#band:checked ~ #band { 
-    display: block;
-    width: 100%;
-}
-#games:checked ~ #games { 
-    display: block;
-    width: 100%;
-}
-#haiku:checked ~ #haiku { 
-    display: block;
-    width: 100%;
-}
-#audiobook:checked ~ #audiobook { 
-    display: block;
-    width: 100%;
-}
-#video:checked ~ #video { 
+.favourites input[name="headers"]:checked + label + div {
     display: block;
     width: 100%;
 }
@@ -102,9 +86,11 @@ div.bio {
 
 div.bio img.paperclip {
     position: absolute;
-    top: -60px;
-    left: 18%;
-    transform: scale(0.5);
+    top: -12px;
+    right: -9px;
+    width: 20%;
+    box-shadow: none;
+    background: none;
 }
 
 div.bio table {
@@ -122,16 +108,11 @@ div.bio img {
 
 .bio a {
     display: block;
+    position: relative;
 }
 
 img {
     max-width: 100%;
-}
-
-img.paperclip {
-    box-shadow: none !important;
-    background: none !important;
-    transform: scale(0.5);
 }
 
 footer {
@@ -208,7 +189,7 @@ h2 {
     color: rgb(10, 16, 128);
 }
 
-.Favourites input[type="radio"]:checked + label {
+.favourites input[type="radio"]:checked + label {
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-decoration-style: wavy;
@@ -238,6 +219,8 @@ header nav {
 header nav ul {
     margin: 0px;
     padding: 0px;
+    display: flex;
+    justify-content: center;
     flex-wrap: nowrap;
 }
 
