@@ -49,7 +49,7 @@
 
 @media only screen and (max-width:600px) {
     header nav ul li {
-        display: inline-block;
+        display: block;
         align-items: center;
     }
 }
