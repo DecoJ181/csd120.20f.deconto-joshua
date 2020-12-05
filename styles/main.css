@@ -41,6 +41,9 @@
         padding: -5px;
         border-spacing: -5px;
     }
+    h3 {
+        padding: 0px;
+    }
 }
 
 html{
