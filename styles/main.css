@@ -42,6 +42,7 @@ div.width-wrap {
 
 .gallery a:hover {
     transform: scale(1.1);
+    transition-duration: 200ms;
 }
 
 .row-span-2 {
@@ -49,7 +50,7 @@ div.width-wrap {
 }
 
 .col-span-2 {
-    grid-column: span 2;
+    grid-column: span 1;
 }
 
 .favourites input[type="radio"] {
@@ -144,6 +145,7 @@ a.backtotop:hover {
     display: inline-block;
     text-decoration: none;
     transform: rotate(45deg);
+    transition-duration: 200ms;
 }
 
 iframe {
