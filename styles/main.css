@@ -38,8 +38,8 @@
     }
     .favourites > label {
         order: 0;
-        padding: 0;
-        border-spacing: 0;
+        padding: -5px;
+        border-spacing: -5px;
     }
 }
 
