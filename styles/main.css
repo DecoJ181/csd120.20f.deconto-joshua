@@ -32,6 +32,15 @@
     }
 }
 
+@media only screen and (max-width:800px) {
+    .favourites {
+        flex-direction: column;
+    }
+    .favourites > label {
+        order: 0;
+    }
+}
+
 html{
     box-sizing: border-box;
 }
