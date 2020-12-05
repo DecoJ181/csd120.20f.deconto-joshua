@@ -49,7 +49,7 @@
 
 @media only screen and (max-width:600px) {
     header nav ul li {
-        flex-direction: column;
+        display: inline-block;
         align-items: center;
     }
 }
