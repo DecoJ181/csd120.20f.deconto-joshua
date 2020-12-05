@@ -74,6 +74,7 @@
         list-style-type: none;
         text-transform: uppercase;
         letter-spacing: 4px;
+        display: block;
     }
     
     header a {
