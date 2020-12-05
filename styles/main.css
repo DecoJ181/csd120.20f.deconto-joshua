@@ -39,8 +39,11 @@
     .favourites > label {
         order: 0;
     }
-    h3 {
+    .favourites h3 {
         margin: 0px;
+    }
+    .favourites label {
+        margin: 10px;
     }
 }
 
