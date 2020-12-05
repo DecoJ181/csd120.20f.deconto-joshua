@@ -38,11 +38,9 @@
     }
     .favourites > label {
         order: 0;
-        padding: -5px;
-        border-spacing: -5px;
     }
     h3 {
-        padding: 0px;
+        margin: 0px;
     }
 }
 
