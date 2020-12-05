@@ -79,7 +79,7 @@ div.width-wrap {
 }
 
 div.bio {
-    column-count: 3;
+    column-width: 13em;
     column-gap: 2em;
     position: relative;
 }
