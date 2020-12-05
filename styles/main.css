@@ -48,9 +48,8 @@
 }
 
 @media only screen and (max-width:600px) {
-    header nav ul li {
+    header a {
         display: block;
-        align-items: center;
     }
 }
 
