@@ -49,9 +49,9 @@
         display: block;
         width: 40px;
         height: 25px;
-        border: darkblue;
-        border-style: solid;
-        border-width: 5px;
+        border-bottom: darkblue;
+        border-bottom-style: solid;
+        border-bottom-width: 5px;
         justify-content: center;
         align-items: center;
     }
