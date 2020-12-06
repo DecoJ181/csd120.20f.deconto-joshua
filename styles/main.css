@@ -74,12 +74,14 @@
         margin-left: auto;
         margin-top: 1em;
         margin-bottom: 1em;
+        transition-property: border-top-width;
+        transition-duration: 200ms;
     }
     .sandwich-icon:hover {
         cursor: pointer;
     }
     #menu-toggle:checked ~ label.sandwich-icon {
-        border: 20px;
+        border-top-width: 1px;
     }
     label.sandwich-icon::after {
         content: "";
