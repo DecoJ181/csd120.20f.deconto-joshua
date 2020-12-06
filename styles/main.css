@@ -48,8 +48,10 @@
 }
 
 @media only screen and (max-width:600px) {
-    header {
+    body {
         content: "TEST";
+    }
+    header {
         margin-right: -2em;
         margin-left: -2em;
         border-top: 4px solid rgba(0, 0, 0, 0.1);
