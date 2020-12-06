@@ -37,7 +37,7 @@
         height: 0;
         overflow: hidden;
         transition-property: height;
-        transition-duration: 200ms;
+        transition-duration: 2000ms;
         
     }
     #menu-toggle:checked ~ ul.hidden-menu {
@@ -96,6 +96,8 @@
         border-top-width: 5px;
         position: absolute;
         margin-top: 5px;
+        transition-property: transform;
+        transition-delay: 2000ms;
     }
     label.sandwich-icon {
         display: block;
