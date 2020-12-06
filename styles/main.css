@@ -73,8 +73,8 @@
         cursor: pointer;
     }
     .sandwich-icon input[type="checkbox"]:checked + label + header + nav + ul {
-        height: auto;
-        overflow: auto;
+        content: "TEST";
+        color: red;
     }
     label.sandwich-icon::after {
         content: "";
