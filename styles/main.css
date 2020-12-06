@@ -30,11 +30,9 @@
     tr td:last-child::after {
         content: "hrs/wk";
     }
-    div.width-wrap header nav ul li a {
-        color: red;
-    }
     div.width-wrap header nav ul {
         flex-direction: column;
+        justify-content: center;
     }
 }
 
