@@ -55,6 +55,26 @@
         margin-right: auto;
         margin-left: auto;
     }
+    .sandwich-icon::before {
+        display: block;
+        width: 40px;
+        height: 25px;
+        border-top: darkblue;
+        border-top-style: solid;
+        border-top-width: 5px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .sandwich-icon::after {
+        display: block;
+        width: 40px;
+        height: 25px;
+        border-top: darkblue;
+        border-top-style: solid;
+        border-top-width: 5px;
+        margin-right: auto;
+        margin-left: auto;
+    }
     div.width-wrap header nav {
         text-align: center;
     }
