@@ -40,7 +40,7 @@
         transition-duration: 1s;
     }
     #menu-toggle:checked ~ ul.hidden-menu {
-        height: fit-content;
+        height: 160px;
     }
     div.width-wrap header nav ul li a {
         padding-top: 0.5em;
