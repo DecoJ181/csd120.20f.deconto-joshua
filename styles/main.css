@@ -37,7 +37,7 @@
         height: 0;
         overflow: hidden;
         transition-property: height;
-        transition-duration: 2000ms;
+        transition-duration: 200ms;
         
     }
     #menu-toggle:checked ~ ul.hidden-menu {
