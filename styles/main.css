@@ -69,9 +69,10 @@
         margin: 10px;
     }
 }
-
-div.width-wrap header nav input {
-    display: none;
+@media only screen and (min-width:601px) {
+    div.width-wrap header nav input {
+        display: none;
+    }
 }
 
 html{
