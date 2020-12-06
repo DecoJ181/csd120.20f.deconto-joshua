@@ -54,6 +54,7 @@
         margin-left: auto;
         margin-top: 1em;
         margin-bottom: 1em;
+        transform: rotate(45deg);
     }
     #menu-toggle:checked ~ label.sandwich-icon::before {
         content: "";
@@ -64,7 +65,7 @@
         border-top-width: 5px;
         position: absolute;
         margin-top: 5px;
-        transform: rotate(45deg);
+        transform: rotate(-45deg);
     }
     #menu-toggle:checked ~ label.sandwich-icon::after {
         content: "";
@@ -75,7 +76,6 @@
         border-top-width: 5px;
         position: absolute;
         margin-top: 15px;
-        transform: rotate(-45deg);
     }
     div.width-wrap header nav ul li a {
         padding-top: 0.5em;
