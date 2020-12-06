@@ -97,7 +97,7 @@
         position: absolute;
         margin-top: 5px;
         transition-property: transform;
-        transition-duration: 1000ms;
+        transition-duration: 200ms;
     }
     label.sandwich-icon {
         display: block;
@@ -124,9 +124,9 @@
         position: absolute;
         margin-top: 15px;
         transition-property: transform;
-        transition-duration: 1000ms;
+        transition-duration: 200ms;
         transition-property: margin-top;
-        transition-duration: 1000ms;
+        transition-duration: 200ms;
     }
     div.width-wrap header nav {
         text-align: center;
