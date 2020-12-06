@@ -30,8 +30,8 @@
     tr td:last-child::after {
         content: "hrs/wk";
     }
-    header nav {
-        content: "THIS IS A TEST OF THE WEBSITE SCREEN SIZE";
+    header nav ul li::before{
+        content: "TEST";
         color: red;
     }
 }
