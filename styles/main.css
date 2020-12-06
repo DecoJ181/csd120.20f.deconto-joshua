@@ -80,7 +80,7 @@
     .sandwich-icon:hover {
         cursor: pointer;
     }
-    #menu-toggle:checked ~ label.sandwich-icon {
+    .sandwich-icon input[type="checkbox"]:checked {
         border-top-width: 1px;
     }
     label.sandwich-icon::after {
