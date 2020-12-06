@@ -62,6 +62,14 @@
     }
 }
 
+.sandwich-icon input[type="checkbox"] {
+    display: none;
+}
+
+.sandwich-icon {
+    display: none;
+}
+
 html{
     box-sizing: border-box;
 }
