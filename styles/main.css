@@ -39,7 +39,7 @@
         padding-top: 0.5em;
         border-top: none;
     }
-    div.width-wrap header nav ul li a {
+    div.width-wrap header nav ul li a:hover {
         padding-top: 0.5em;
         border-top: none;
         text-decoration: underline;
