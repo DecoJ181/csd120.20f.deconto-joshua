@@ -44,16 +44,7 @@
         height: 160px;
     }
     #menu-toggle:checked ~ label.sandwich-icon {
-        display: block;
-        width: 40px;
-        height: 25px;
-        border-top: red;
-        border-top-style: solid;
-        border-top-width: 5px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 1em;
-        margin-bottom: 1em;
+        display: none;
     }
     #menu-toggle:checked ~ label.sandwich-icon::before {
         border-top: red;
