@@ -36,7 +36,9 @@
         align-items: center;
         height: 0;
         overflow: hidden;
-        transition-property: height 200ms;
+        transition-property: height;
+        transition-duration: 200ms;
+        
     }
     #menu-toggle:checked ~ ul.hidden-menu {
         height: 160px;
