@@ -97,7 +97,7 @@
         position: absolute;
         margin-top: 5px;
         transition-property: transform;
-        transition-delay: 2000ms;
+        transition-duration: 2000ms;
     }
     label.sandwich-icon {
         display: block;
