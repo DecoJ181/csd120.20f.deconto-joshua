@@ -47,7 +47,7 @@
         align-items: center;
         height: fit-content;
         overflow: visible;
-        transition: all;
+        transition: initial;
         transition-delay: 200ms;
         transition-property: all;
         transition-duration: 200ms;
