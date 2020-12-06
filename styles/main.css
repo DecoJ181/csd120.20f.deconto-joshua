@@ -47,14 +47,13 @@
         display: block;
         width: 40px;
         height: 25px;
-        border-top: darkblue;
+        border-top: rgb(122, 212, 175);;
         border-top-style: solid;
         border-top-width: 5px;
         margin-right: auto;
         margin-left: auto;
         margin-top: 1em;
         margin-bottom: 1em;
-        transform: rotate(45deg);
     }
     #menu-toggle:checked ~ label.sandwich-icon::before {
         content: "";
@@ -65,13 +64,12 @@
         border-top-width: 5px;
         position: absolute;
         margin-top: 5px;
-        transform: rotate(-45deg);
     }
     #menu-toggle:checked ~ label.sandwich-icon::after {
         content: "";
         display: block;
         width: 40px;
-        border-top: rgb(122, 212, 175);
+        border-top: darkblue;
         border-top-style: solid;
         border-top-width: 5px;
         position: absolute;
