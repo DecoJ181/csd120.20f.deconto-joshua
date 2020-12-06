@@ -32,6 +32,7 @@
     }
     div.width-wrap header nav ul li a {
         color: red;
+        flex-direction: column;
     }
 }
 
