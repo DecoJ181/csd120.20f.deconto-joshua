@@ -124,7 +124,9 @@
         position: absolute;
         margin-top: 15px;
         transition-property: transform;
-        transition-duration: 2000ms;
+        transition-duration: 1000ms;
+        transition-property: margin-top;
+        transition-duration: 1000ms;
     }
     div.width-wrap header nav {
         text-align: center;
