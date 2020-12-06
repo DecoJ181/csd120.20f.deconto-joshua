@@ -58,6 +58,9 @@
         justify-content: center;
         align-items: center;
     }
+    div.width-wrap header nav {
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width:825px) {
