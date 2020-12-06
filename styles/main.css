@@ -43,7 +43,7 @@
         height: 160px;
     }
     #menu-toggle:checked ~ .sandwich-icon {
-        display: none;
+        border-top-width: 0px;
     }
 
     div.width-wrap header nav ul li a {
