@@ -43,6 +43,9 @@
     #menu-toggle:checked ~ ul.hidden-menu {
         height: 160px;
     }
+    #menu-toggle:checked ~ label.sandwich-icon {
+        height: 160px;
+    }
     div.width-wrap header nav ul li a {
         padding-top: 0.5em;
         border-top: none;
