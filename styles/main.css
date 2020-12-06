@@ -63,7 +63,7 @@
         position: absolute;
         margin-top: 5px;
     }
-    .sandwich-icon {
+    label.sandwich-icon {
         display: block;
         width: 40px;
         height: 25px;
@@ -77,11 +77,8 @@
         transition-property: border-top-width;
         transition-duration: 200ms;
     }
-    .sandwich-icon:hover {
+    label.sandwich-icon:hover {
         cursor: pointer;
-    }
-    .sandwich-checkbox:checked {
-        border-top-width: 1px;
     }
     label.sandwich-icon::after {
         content: "";
