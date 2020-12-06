@@ -48,9 +48,10 @@
     .sandwich-icon {
         display: block;
         width: 40px;
-        height: 250px;
+        height: 40px;
         color: darkblue;
-        border: darkblue;
+        border-top: darkblue;
+        border-top-width: 5px;
     }
 }
 
