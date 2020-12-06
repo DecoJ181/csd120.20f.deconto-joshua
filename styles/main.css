@@ -37,7 +37,7 @@
         height: 0;
         overflow: hidden;
     }
-    #toggle:checked ~ div.width-wrap header nav ul {
+    #menu-toggle:checked ~ .hidden-menu {
         flex-direction: column;
         justify-content: center;
         align-items: center;
