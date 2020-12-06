@@ -36,6 +36,8 @@
         align-items: center;
         height: 0;
         overflow: hidden;
+        transition-property: height;
+        transition-duration: 1s;
     }
     #menu-toggle:checked ~ ul.hidden-menu {
         flex-direction: column;
@@ -43,7 +45,6 @@
         align-items: center;
         height: fit-content;
         overflow: visible;
-        transition: height 200ms ease-in-out
     }
     div.width-wrap header nav ul li a {
         padding-top: 0.5em;
