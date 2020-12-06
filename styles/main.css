@@ -46,6 +46,12 @@
     #menu-toggle:checked ~ label.sandwich-icon {
         border-top: red;
     }
+    #menu-toggle:checked ~ label.sandwich-icon::before {
+        border-top: red;
+    }
+    #menu-toggle:checked ~ label.sandwich-icon::after {
+        border-top: red;
+    }
     div.width-wrap header nav ul li a {
         padding-top: 0.5em;
         border-top: none;
