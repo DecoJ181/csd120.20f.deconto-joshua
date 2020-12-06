@@ -67,6 +67,7 @@
         border-top-style: solid;
         border-top-width: 5px;
         position: absolute;
+        margin-top: 1em;
     }
     label.sandwich-icon::before {
         content: "";
@@ -76,6 +77,7 @@
         border-top-style: solid;
         border-top-width: 5px;
         position: absolute;
+        margin-top: 1em;
     }
     div.width-wrap header nav {
         text-align: center;
