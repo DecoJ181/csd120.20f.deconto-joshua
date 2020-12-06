@@ -55,6 +55,7 @@
         margin-right: auto;
         margin-left: auto;
         margin-top: auto;
+        margin-bottom: auto;
     }
     .sandwich-icon:hover {
         cursor: pointer;
