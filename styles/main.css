@@ -31,7 +31,8 @@
         content: "hrs/wk";
     }
     header nav {
-        content: "THIS IS A TEST OF THE WEBSITE SCREEN SIZE"
+        content: "THIS IS A TEST OF THE WEBSITE SCREEN SIZE";
+        color: red;
     }
 }
 
