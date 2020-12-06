@@ -34,6 +34,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 0;
+        overflow: hidden;
     }
     div.width-wrap header nav ul li a {
         padding-top: 0.5em;
@@ -69,9 +71,6 @@
     }
     .sandwich-icon:hover {
         cursor: pointer;
-    }
-    .sandwich-icon input[type="checkbox"]:checked + .hidden-menu {
-        display: none;
     }
     label.sandwich-icon::after {
         content: "";
