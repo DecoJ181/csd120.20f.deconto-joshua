@@ -40,11 +40,7 @@
         transition-duration: 1s;
     }
     #menu-toggle:checked ~ ul.hidden-menu {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         height: fit-content;
-        overflow: visible;
     }
     div.width-wrap header nav ul li a {
         padding-top: 0.5em;
