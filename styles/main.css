@@ -1,4 +1,4 @@
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
     thead {
         display: none;
     }
@@ -30,6 +30,9 @@
     tr td:last-child::after {
         content: "hrs/wk";
     }
+    header nav {
+        content: "THIS IS A TEST OF THE WEBSITE SCREEN SIZE"
+    }
 }
 
 @media only screen and (max-width:825px) {
@@ -44,55 +47,6 @@
     }
     .favourites label {
         margin: 10px;
-    }
-}
-
-@media only screen and (max-width:1200px) {
-    body {
-        content: "TEST";
-    }
-    header {
-        margin-right: -2em;
-        margin-left: -2em;
-        border-top: 4px solid rgba(0, 0, 0, 0.1);
-    }
-    
-    header nav {
-        margin-left: 2em;
-        margin-right: 2em;
-        border-bottom: 1px dotted rgba(0, 0, 0, 0.3)
-    }
-    
-    header nav ul {
-        margin: 0px;
-        padding: 0px;
-        display: flex;
-        justify-content: center;
-        flex-wrap: nowrap;
-    }
-    
-    header nav ul li {
-        align-items: center;
-        font-weight: bold;
-        list-style-type: none;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        display: block;
-    }
-    
-    header a {
-        color: rgba(92, 17, 82, 0.25);
-        margin-top: -4px;
-        margin-left: 16px;
-        margin-right: 16px;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-        display: block;
-    }
-    
-    header a:hover {
-        color: rgb(59, 8, 52);
-        text-decoration: underline;
     }
 }
 
