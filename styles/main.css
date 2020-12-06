@@ -37,6 +37,11 @@
         height: 0;
         overflow: hidden;
     }
+    #toggle:checked ~ div.width-wrap header nav ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     div.width-wrap header nav ul li a {
         padding-top: 0.5em;
         border-top: none;
