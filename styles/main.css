@@ -72,7 +72,7 @@
     .sandwich-icon:hover {
         cursor: pointer;
     }
-    .sandwich-icon input[type="checkbox"]:checked + label {
+    .sandwich-icon input[type="checkbox"]:checked + label + div.width-wrap + header + nav + ul {
         height: auto;
         overflow: auto;
     }
