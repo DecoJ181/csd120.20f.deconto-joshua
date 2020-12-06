@@ -91,14 +91,6 @@ div.width-wrap {
     background-color: rgb(122, 212, 175);
 }
 
-div.width-wrap header nav input {
-    display: none;
-}
-
-.sandwich-icon {
-    display: none;
-}
-
 .gallery {
     grid-template-columns: minmax(180px,auto);
     gap: 10px;
