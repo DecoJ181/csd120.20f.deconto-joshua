@@ -43,10 +43,6 @@
     #menu-toggle:checked ~ ul.hidden-menu {
         height: 160px;
     }
-    #menu-toggle:checked ~ label.sandwich-icon {
-        border-top-width: 0px;
-    }
-
     div.width-wrap header nav ul li a {
         padding-top: 0.5em;
         border-top: none;
@@ -81,6 +77,9 @@
     }
     .sandwich-icon:hover {
         cursor: pointer;
+    }
+    .sandwich-icon:checked{
+        border-top-width: 0px;
     }
     label.sandwich-icon::after {
         content: "";
