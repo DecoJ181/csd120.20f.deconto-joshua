@@ -35,6 +35,16 @@
         justify-content: center;
         align-items: center;
     }
+    div.width-wrap header nav ul li a {
+        padding-top: 0.5em;
+        border-top: none;
+    }
+    div.width-wrap header nav ul li a {
+        padding-top: 0.5em;
+        border-top: none;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+    }
 }
 
 @media only screen and (max-width:825px) {
