@@ -45,16 +45,6 @@
         text-decoration: underline;
         text-decoration-thickness: 2px;
     }
-    .sandwich-icon input[type="checkbox"] {
-        content: "TEST";
-        color: red;
-        display: contents;
-    }
-    .sandwich-icon {
-        content: "TEST";
-        color: red;
-        display: contents;
-    }
 }
 
 @media only screen and (max-width:825px) {
