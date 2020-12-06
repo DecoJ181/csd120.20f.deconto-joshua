@@ -75,6 +75,7 @@
         border-top-width: 5px;
         position: absolute;
         margin-top: 15px;
+        transform: rotate(-45deg);
     }
     div.width-wrap header nav ul li a {
         padding-top: 0.5em;
