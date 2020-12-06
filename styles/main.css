@@ -70,9 +70,8 @@
     .sandwich-icon:hover {
         cursor: pointer;
     }
-    .sandwich-icon input[type="checkbox"]:checked + label + header + nav + ul {
-        content: "TEST";
-        color: red;
+    .sandwich-icon input[type="checkbox"]:checked + .hidden-menu {
+        display: none;
     }
     label.sandwich-icon::after {
         content: "";
