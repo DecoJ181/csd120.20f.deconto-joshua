@@ -37,6 +37,8 @@
         height: 0;
         overflow: hidden;
         transition: all;
+        transition-delay: 200ms;
+        transition-property: all;
         transition-duration: 200ms;
     }
     #menu-toggle:checked ~ ul.hidden-menu {
@@ -46,6 +48,8 @@
         height: fit-content;
         overflow: visible;
         transition: all;
+        transition-delay: 200ms;
+        transition-property: all;
         transition-duration: 200ms;
     }
     div.width-wrap header nav ul li a {
