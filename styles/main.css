@@ -49,9 +49,12 @@
         display: block;
         width: 40px;
         height: 25px;
-        border-bottom: darkblue;
-        border-bottom-style: solid;
-        border-bottom-width: 5px;
+        border-top: darkblue;
+        border-top-style: solid;
+        border-top-width: 5px;
+        align-self: center;
+        align-content: center;
+        text-align: center;
         justify-content: center;
         align-items: center;
     }
