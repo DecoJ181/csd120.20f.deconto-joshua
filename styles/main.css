@@ -44,7 +44,7 @@
         height: 160px;
     }
     #menu-toggle:checked ~ label.sandwich-icon {
-        height: 160px;
+        border-top: red;
     }
     div.width-wrap header nav ul li a {
         padding-top: 0.5em;
