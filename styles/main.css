@@ -30,8 +30,7 @@
     tr td:last-child::after {
         content: "hrs/wk";
     }
-    header nav ul li::before{
-        content: "TEST";
+    div.width-wrap header nav ul li a {
         color: red;
     }
 }
