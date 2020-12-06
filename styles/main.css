@@ -47,7 +47,7 @@
         display: block;
         width: 40px;
         height: 25px;
-        border-top: rgb(122, 212, 175);
+        border-top: darkblue;
         border-top-style: solid;
         border-top-width: 5px;
         margin-right: auto;
@@ -59,21 +59,23 @@
         content: "";
         display: block;
         width: 40px;
-        border-top: red;
+        border-top: darkblue;
         border-top-style: solid;
         border-top-width: 5px;
         position: absolute;
         margin-top: 5px;
+        transform: rotate(45deg);
     }
     #menu-toggle:checked ~ label.sandwich-icon::after {
         content: "";
         display: block;
         width: 40px;
-        border-top: red;
+        border-top: rgb(122, 212, 175);
         border-top-style: solid;
         border-top-width: 5px;
         position: absolute;
         margin-top: 15px;
+        transform: rotate(-45deg);
     }
     div.width-wrap header nav ul li a {
         padding-top: 0.5em;
