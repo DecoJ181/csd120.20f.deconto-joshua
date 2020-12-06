@@ -46,10 +46,9 @@
         text-decoration-thickness: 2px;
     }
     .sandwich-icon {
-        content: "TEST";
         display: block;
         width: 40px;
-        height: 25px;
+        height: 250px;
         border: darkblue;
     }
 }
