@@ -42,7 +42,7 @@
     #menu-toggle:checked ~ ul.hidden-menu {
         height: 160px;
     }
-    #menu-toggle:checked ~ .sandwich-icon {
+    #menu-toggle:checked ~ label.sandwich-icon {
         border-top-width: 0px;
     }
 
